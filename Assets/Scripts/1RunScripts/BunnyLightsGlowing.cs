@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class BunnyLightsGlowing : MonoBehaviour
 {
-   //AudioSource sfxLIGHTS;
-
     public Light Bunny_Light;
     public Light Vanity_Light;
     public Light Desk_Light;

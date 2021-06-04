@@ -1,0 +1,1 @@
+﻿using System.Collections; using System.Collections.Generic; using UnityEngine;  public class GameStateManager : MonoBehaviour {  	public enum GameState 	{ 		FIRST_RUN, 		SECOND_RUN, 		THIRD_RUN, 	} ;  	public static GameState CURRENTSTATE;  	void Start () { 		CURRENTSTATE = GameState.FIRST_RUN; 	} }
